@@ -1,0 +1,10 @@
+       double area;
+       double circumference;
+       double radius;
+       double pi{ 3.1415 };
+
+       cout << "What is the radius of your circle? " << endl;
+       cin >> radius;
+       area = pi * (radius * radius);
+       circumference = 2 * pi * radius;
+       cout << "the area of your circle is " << area << " and the circumference is " << circumference << endl;
