@@ -1,0 +1,17 @@
+double temperatureInF{};
+       double temperatureInC{};
+
+
+      cout << "What temperature do you want to convert from Farenheit?" << endl;
+      cin >> temperatureInF;
+      temperatureInC = ((temperatureInF - 32) * 0.556);
+      cout << temperatureInF << " Farenheit would be " << temperatureInC << " in Celcius" << endl;*/
+
+       double temperatureInF{};
+       double temperatureInC{};
+
+
+       cout << "What temperature do you want to convert from Celcius?" << endl;
+       cin >> temperatureInC;
+       temperatureInF = ((temperatureInC / 0.556) + 32);
+       cout << temperatureInC << " Celcius would be " << temperatureInF << " in Farenheit" << endl;
