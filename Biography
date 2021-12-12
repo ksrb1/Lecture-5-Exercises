@@ -1,0 +1,11 @@
+      string name{};
+      string hometown{};
+      int age{};
+
+      cout << "what's your name? " << endl;
+      cin >> name;
+      cout << "Oh so your name is " << name << endl << "What about where you're from? " << endl;
+      cin >> hometown;
+      cout << "Nice! so you're from " << hometown << endl << "Now final question, how old are you? " << endl;
+      cin >> age;
+      cout << "oh and you're " << age << "years old" << endl;
